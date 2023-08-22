@@ -1,0 +1,6 @@
+D:\Curso nivel 2 C#\TPFinalNivel2_González\capaDominio\bin\Debug\capaDominio.dll
+D:\Curso nivel 2 C#\TPFinalNivel2_González\capaDominio\bin\Debug\capaDominio.pdb
+D:\Curso nivel 2 C#\TPFinalNivel2_González\capaDominio\obj\Debug\capaDominio.csproj.AssemblyReference.cache
+D:\Curso nivel 2 C#\TPFinalNivel2_González\capaDominio\obj\Debug\capaDominio.csproj.CoreCompileInputs.cache
+D:\Curso nivel 2 C#\TPFinalNivel2_González\capaDominio\obj\Debug\capaDominio.dll
+D:\Curso nivel 2 C#\TPFinalNivel2_González\capaDominio\obj\Debug\capaDominio.pdb

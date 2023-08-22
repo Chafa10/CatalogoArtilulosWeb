@@ -1,0 +1,48 @@
+﻿:root {
+    --max-width: 1200px;
+    --color-violeta: #332B47;
+    --color-amarillo: #FAA72C;
+}
+
+
+/*Reseteo*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::backdrop {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding-top: 0;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-width);
+}
+
+
+/*Header*/
+
+
+.header-container {
+    margin-bottom: 100px;
+
+}
+/*CONTENDOR MAIN */
+
+
+.container > .quick-filter {
+    margin-bottom: 25px;
+    margin-right: 150px;
+
+}
+
+ 
