@@ -124,3 +124,16 @@ D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\obj\Debug\Vista.c
 D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\obj\Debug\Vista.csproj.CopyComplete
 D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\obj\Debug\catalogo.dll
 D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\obj\Debug\catalogo.pdb
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\Microsoft.Data.Tools.Components.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\Microsoft.Data.Tools.Schema.Sql.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\Microsoft.Data.Tools.Utilities.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\es\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\es\Microsoft.Data.Tools.Schema.Sql.UnitTesting.resources.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\es\Microsoft.Data.Tools.Components.resources.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\es\Microsoft.Data.Tools.Utilities.resources.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\es\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\Curso nivel 3 c#.net\CatalogoArtilulosWeb\catalogo\catalogo\bin\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
