@@ -17,11 +17,11 @@ namespace catalogo
             ArticuloNegocio negocio = new ArticuloNegocio();
             try
             {
-                listaArticulo = negocio.listar();
+                Session.Add("ListaArticulos", negocio.listar());
 
                 if (!IsPostBack)
                 {
-                    repRepetidor.DataSource = listaArticulo;
+                    repRepetidor.DataSource = Session["ListaArticulos"];
                     repRepetidor.DataBind();
 
                 }
@@ -39,5 +39,6 @@ namespace catalogo
         {
 
         }
+
     }
 }

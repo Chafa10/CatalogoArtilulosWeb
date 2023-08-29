@@ -26,7 +26,7 @@
     <asp:Repeater ID="repRepetidor" runat="server">
         <ItemTemplate>
             <section class="main-container">
-                <div class="container card w-50 d-flex flex-row">
+                <div class="container card w-50 d-flex flex-row article-<%#Eval ("Id") %>">
                     <div class="card-img-container" style="width: 20%;">
                         <img src="<%# Eval("ImagenUrl") %>" class="card-img-top h-100" alt="..." style="max-height: 130px; max-width: 130px">
                     </div>
@@ -34,11 +34,12 @@
                         <h3 class="card-title"><%#Eval("Nombre") %></h3>
                         <h5 class="card-title">Precio <%#Eval("Precio") %></h5>
                         <p class="card-text"><%#Eval("Descripcion") %></p>
-                        <asp:Button CssClass="btn btn-outline-primary" ID="Button1" runat="server" Text="Detalle" />
+                        <a href="Detalle.aspx?id=<%#Eval("Id") %>">Detalle</a>
                     </div>
 
-                    <svg class="hidden" fill="#000000" height="20px" width="20px" style="margin: 10px 10px 0 0;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                 <svg class="article-favorite-<%# Eval("Id") %>" fill="#000000" height="20px" width="20px" style="margin: 10px 10px 0 0;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 471.701 471.701" xml:space="preserve">
+
                         <g>
                             <path d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1
 		c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3
