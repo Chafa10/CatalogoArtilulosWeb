@@ -45,5 +45,22 @@ namespace catalogo
             FiltroAvanzado = !chbFiltroAvanzado.Checked;
             txtFiltro.Enabled = FiltroAvanzado;
         }
+
+        protected void ddlCampo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ddlCriterio.Items.Clear();
+            if (ddlCampo.SelectedItem.ToString() == "Precio")
+            {
+                ddlCriterio.Items.Add("Mayor a");
+                ddlCriterio.Items.Add("Menor a");
+                ddlCriterio.Items.Add("Igual a");
+            }
+            else
+            {
+                ddlCriterio.Items.Add("Contiene");
+                ddlCriterio.Items.Add("Comienza con");
+                ddlCriterio.Items.Add("Termina con");
+            }
+        }
     }
 }

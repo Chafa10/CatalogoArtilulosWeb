@@ -31,7 +31,7 @@
         <div class="row">
             <div class="col-3">
                  <asp:Label ID="lblCampo" runat="server" Text="Filtrar Por"></asp:Label>
-                <asp:DropDownList ID="ddlCampo" AutoPostBack="true"  CssClass="form-control" runat="server">
+                <asp:DropDownList ID="ddlCampo" AutoPostBack="true" OnSelectedIndexChanged="ddlCampo_SelectedIndexChanged"  CssClass="form-control" runat="server">
                     <asp:ListItem Text="Categoria" />
                     <asp:ListItem Text="Marca" />
                     <asp:ListItem Text="Precio" />
